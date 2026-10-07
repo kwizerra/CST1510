@@ -1,0 +1,11 @@
+# Learning material: only each week's LAB folder is uploaded
+Week */*
+!Week */LAB/
+
+# Files that should never be uploaded
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+__MACOSX/
+.DS_Store
+.env
