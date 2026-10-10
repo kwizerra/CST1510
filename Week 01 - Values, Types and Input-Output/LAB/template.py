@@ -2,9 +2,9 @@
 RECORD CHECK  -  my version
 ===========================
 
-Name  :
+Name  :  Shaun Michael Tamale
 Lane  :  AI     (delete two)
-Date  :
+Date  :  3/10/2026
 
 Run it:   python template.py
 
