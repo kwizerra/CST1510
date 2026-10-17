@@ -26,7 +26,7 @@ Delete these instructions as you replace them with your code.
 
 # your function(s) go here
 def status_of(percent):
-    """ This returns the status of percent"""
+    """ This returns the status of percent """
     if percent >= 100:
         return 'OVER LIMIT'
     elif percent >= 90:
@@ -34,12 +34,12 @@ def status_of(percent):
     else:
         return 'OK'
 def check(failed_logins, total_attempts):
-    """ This calculated the available login attempts remaining and percent """
+    """ This calculates and returns the available login attempts remaining and percent """
     available_logins = total_attempts - failed_logins
     percent = (failed_logins/total_attempts) * 100
     return available_logins, percent
 def print_report(source_ip, failed_logins, total_attempts, available_logins, percent, status):
-    """ This prints the report """
+    """ This prints a formatted report per source IP """
     print()
     print("=" * 34)
     print(f"  RECORD CHECK  -  {source_ip}")
