@@ -1,0 +1,3 @@
+label,value,limit,percent,status
+R-002,120,100,120.0,OVER LIMIT
+R-005,101,100,101.0,OVER LIMIT
